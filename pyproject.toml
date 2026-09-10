@@ -1,8 +1,19 @@
 [project]
 name = "h3-prompt-compiler"
-version = "0.1.0"
+version = "1.0.0"
 description = "Generic Chinese director-draft compiler and hard auditor for MiniMax H3 ComfyUI workflows"
 requires-python = ">=3.10"
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/wanski24hours-cmyk/h3-prompt-compiler"
+Issues = "https://github.com/wanski24hours-cmyk/h3-prompt-compiler/issues"
+
+[tool.comfy]
+PublisherId = "h3-tools"
+DisplayName = "H3 Prompt Compiler"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
