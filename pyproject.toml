@@ -1,0 +1,8 @@
+[project]
+name = "h3-prompt-compiler"
+version = "0.1.0"
+description = "Generic Chinese director-draft compiler and hard auditor for MiniMax H3 ComfyUI workflows"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
