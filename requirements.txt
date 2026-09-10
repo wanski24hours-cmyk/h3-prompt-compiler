@@ -1,1 +1,1 @@
-# No external Python dependencies for v0.1.0
+# No extra pip dependencies. Uses torch/Pillow/numpy provided by ComfyUI only when building an optional vision contact sheet.

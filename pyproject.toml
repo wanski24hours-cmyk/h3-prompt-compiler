@@ -1,10 +1,13 @@
 [project]
 name = "h3-prompt-compiler"
-version = "1.0.0"
-description = "Generic Chinese director-draft compiler and hard auditor for MiniMax H3 ComfyUI workflows"
+version = "1.2.0"
+description = "Mode-aware Chinese director-draft Context-IR compiler and hard auditor for MiniMax H3 ComfyUI workflows"
+readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
     "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
 ]
 
 [project.urls]
